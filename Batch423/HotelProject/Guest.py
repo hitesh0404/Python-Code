@@ -1,3 +1,4 @@
+from HotelProject import Hotel,Reservation,Rooms
 class Guest:
     def __init__(self,id:int,name:str,contact:int):
         self.id = id

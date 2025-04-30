@@ -4,8 +4,10 @@ from Rooms import Room,RoomCategory
 from Reservation import Reservation
 def create_hotel():
     global hotels
-    print("Enter the Name Location and rating seprated by ,  :")
-    name,location,rating = input().split(',')
+    # name = input("Enter the Name :")
+    # location = input("Enter the Location :")
+    # rating = input("Enter the Rating :")
+    name,location,rating = input("Enter the Name Location and rating seprated by ,  :").split(',')
     rating = int(rating)
     hotels.append(Hotel(name=name,location=location,rating=rating))
 def create_guest():
@@ -14,12 +16,17 @@ def create_guest():
     id,name,contact= input().split(',')
     id=int(id)
     guests.append(Guest(id=id,name=name,contact=contact))
-
 def show_hotels():
+    if len(hotels) == 0:
+        print("Create Hotel First")
+        create_hotel()
     for index,hotel in enumerate(hotels):
         print(index,hotel)
 
-def create_category(hotel_id):
+def create_category(hotel_id=-1):
+    if hotel_id==-1:
+        show_hotels()
+        hotel_id = int(input("Enter Hotel ID"))
     name = input('Enter Category Name ')
     hotels[hotel_id].category.append(RoomCategory(name))
 
@@ -39,14 +46,12 @@ def create_room():
     category = int(input('Enter category ID'))
     number,capacity  = input("Enter The Room Number and Capacity seperated by ,  :").split(',') 
     new_room = Room(number=number,category=hotels[hotel_id].category[category],capacity=int(capacity))
-    hotels[hotel_id].rooms.append(new_room) 
-
+    hotels[hotel_id].rooms.append(new_room)
 def show_rooms():
     show_hotels()
     hotel_id = int(input("Enter Hotel ID"))
     for index,room in enumerate(hotels[hotel_id].rooms):
         print(index,room)
-
 def choice():
     print(
         '''
@@ -57,6 +62,7 @@ def choice():
     Press 5 to show Guests
     Press 6 to show Rooms
     Press 7 to show Room Category
+    Press 8 to Create Room Category
     Press 0 to Exit
         '''
     )
@@ -85,5 +91,7 @@ while(num!=0):
             show_rooms()
         case 7:
             show_category()
+        case 8: 
+            create_category()
         case 0:
             break
