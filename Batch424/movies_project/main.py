@@ -1,16 +1,17 @@
 from Genre import Genre
 from Role import Role
 def object_crud(class_name,object_list:list):
-    print(f"availble {class_name.name} are")
-    for i in object_list:
-        print(i)
+    if len(object_list)>0:
+        print(f"availble {class_name.name} are")
+        for i in object_list:
+            print(i)
     print(class_name.operations_choice())
     ch = int(input())
     match ch:
         case 1:  
             same_genre = True
             while(same_genre):
-                name = input("Enter name")
+                name = input("Enter name : ")
                 if len(object_list) == 0:
                     same_genre = False
                 found = False
@@ -38,7 +39,7 @@ role = []
 if __name__ == "__main__":
     while(True):
         print(choice())
-        ch = int(input("enter your Choice: "))
+        ch = int(input("enter your Choice : "))
         match ch:
             case 1: 
                 object_crud(Genre,genre)
