@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun and Moon Toggle</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        .sun {
+            color: #f9d71c;
+        }
+        .moon {
+            color: #e8eaf6;
+        }rgb(181, 186, 213)
+    </style>
+</head>
+<body>
+    <div class="toggle-container" onclick="toggleTheme()">
+        <i id="theme-icon" class="fas fa-sun sun"></i>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const icon = document.getElementById('theme-icon');
+            const body = document.body;
+
+            if (icon.classList.contains('fa-sun')) {
+                // Switch to moon
+                icon.classList.remove('fa-sun', 'sun');
+                icon.classList.add('fa-moon', 'moon');
+                body.style.backgroundColor = '#2c3e50';
+                body.style.color = '#ecf0f1';
+            } else {
+                // Switch to sun
+                icon.classList.remove('fa-moon', 'moon');
+                icon.classList.add('fa-sun', 'sun');
+                body.style.backgroundColor = '#f0f0f0';
+                body.style.color = '#2c3e50';
+            }
+        }
+    </script>
+</body>
+</html>
