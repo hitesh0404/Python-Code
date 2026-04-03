@@ -131,6 +131,7 @@ class Cloth:
 class Cloth:
     def __init__(self):
         pass
+    
     def wash(self,soap,conditioner):
         print("Washing with soap first and then apply conditioner")
 
@@ -142,4 +143,48 @@ class Shoe(Cloth):
         pass
     def wash(self,soap,conditioner):
         print("don't wash directly with soap make foam water and drench  and then apply conditioner")
+
+
+
+
+# Class 
+# and Object
+
+
+# Class : Class is blueprint of an real world entity(Object)
+# an entity can be any living or non-living thing or tangible or non-tangible or conceptual
+
+
+# eg.     If we are making a digital application like whatsapp
+#        
+#         what are the things of which we need to store the data
+#         person
+#         chat (messages)
+#         media files
+#         status
+#            
+
+# we can create class of each entity as of they has 2 thing
+# data and method
+
+
+# class Person:
+#      name
+#      contact
+#      turnOnVisibility()
+#      turnOffVisibility()
+#      uploadStatus()
+
+
+
+
+
+# Object :    it is instance of class
+#             each object follow the structure given by class
+
+
+
+# eg.    hitesh = Person()
+
+
 

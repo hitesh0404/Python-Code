@@ -638,9 +638,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -260.7244141765724,
-			"y": -3213.4091347136814,
-			"z": 0.373741629711678,
+			"x": 482.20786318649215,
+			"y": -3503.2099244197957,
+			"z": 0.21279526006531174,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1613,9 +1613,7 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:W4to8rVDsNN0EfqT8khb8"
-			],
+			"selectedShapeIds": [],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -2305,7 +2303,7 @@
 			"id": "shape:W4to8rVDsNN0EfqT8khb8",
 			"type": "geo",
 			"props": {
-				"w": 895.8453290243758,
+				"w": 1343.5197806685471,
 				"h": 2028.8406826800806,
 				"geo": "rectangle",
 				"dash": "draw",
@@ -3444,8 +3442,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:size": "m"
+				"tldraw:geo": "rectangle"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -3461,7 +3458,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 775.9451904296875,
-				"h": 404.1280822753906
+				"h": 310.0887145996094
 			},
 			"insets": [
 				false,
