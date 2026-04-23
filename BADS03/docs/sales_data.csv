@@ -1,0 +1,101 @@
+customer_id,customer_name,purchase_date,product_name,quantity,unit_price,total_price,payment_method,shipping_address,country
+1,Thibaut Levitt,7/3/2021,Classic Black Dress,13,99.92,1298.96,Cash,63 Scoville Parkway,Morocco
+2,Carlene Wollard,8/9/2021,Mango Chutney,50,921.09,46054.5,PayPal,21 Twin Pines Alley,Argentina
+3,Chelsea Dorwood,3/31/2021,Hibiscus Herbal Tea,27,335.6,9061.2,PayPal,47420 Namekagon Avenue,Colombia
+4,Moina Rabb,3/23/2021,Ginger Tea,22,707.37,15562.14,Cash,030 Hoepker Crossing,Indonesia
+5,Morry Challis,12/2/2021,Smart Wi-Fi Light Bulbs,59,909.91,53684.69,PayPal,57 Ronald Regan Trail,China
+6,Windham Twohig,3/12/2021,Children's Backpack,52,499.44,25970.88,Cash,7282 Clove Drive,Ireland
+7,Jill Fellows,2/8/2021,Roasted Vegetable Medley,28,520.73,14580.44,Cash,65808 Jenna Plaza,Brazil
+8,Roma Proud,1/24/2021,Portable Laptop Table,,93.45,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Credit Card,5 Hagan Hill,Poland
+9,Gates Atkinson,4/11/2021,Insulated Coffee Mug,41,199.86,8194.26,Cash,2 Springview Terrace,China
+10,Goddart Rollinson,8/12/2021,Creamy Avocado Dip,80,272.67,21813.6,Cash,0410 Ridge Oak Parkway,Poland
+11,Thayne Lightewood,12/28/2021,Black Olives,9,654.43,5889.87,Credit Card,26 Leroy Parkway,Ukraine
+12,Aloin Orrin,3/12/2021,Reflective Safety Vest,49,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Cash,60 Erie Junction,France
+13,Gina Gowenlock,5/29/2021,Sliced Bread,84,888.7,74650.8,Credit Card,98 Arapahoe Court,United States
+14,Dyanna Harbord,10/4/2021,Customizable Name Puzzle,2,765.97,1531.94,PayPal,4225 Hintze Junction,French Polynesia
+15,Darbie Shearme,1/8/2021,Almond Milk,,237.03,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Credit Card,2361 Del Mar Way,Indonesia
+16,Godfry Killelea,8/4/2021,Personal Blender with Travel Cup,23,161.73,3719.79,Cash,1432 Linden Point,Ukraine
+17,Dwain Daybell,2/3/2021,,74,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,PayPal,8489 Clarendon Lane,Canada
+18,Clare Fellman,7/4/2021,Elegant Lace Dress,83,374.54,31086.82,PayPal,9 Bunker Hill Way,Syria
+19,Brandise Gillard,2/15/2021,Insulated Cooler,,368.49,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,PayPal,3 Holmberg Park,Tanzania
+20,Willard O'Fihillie,9/6/2021,Smartphone Gimbal,1,729.18,729.18,Cash,598 Jenifer Parkway,China
+21,Ingelbert Desborough,3/3/2021,Mini Air Purifier,,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Cash,775 Burrows Street,Sweden
+22,Geoffry Fish,9/11/2021,Couscous Mix,65,673.42,43772.3,Cash,30660 Nelson Plaza,Brazil
+23,Linnea McIlraith,12/24/2021,Smoked Gouda Cheese,79,755.44,59679.76,PayPal,587 Mcguire Park,Peru
+24,Johanna Drayn,3/5/2021,Ice Cream,97,294.49,28565.53,Cash,54594 Artisan Road,South Korea
+25,Alis Spriddle,1/14/2021,Pineapple Rings,78,181.84,14183.52,Credit Card,3 Anniversary Park,Morocco
+26,Davide Deeble,1/29/2021,Savory Breakfast Sausage,,950.04,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Cash,98 Anthes Point,China
+27,Annamaria Pyser,1/16/2021,Himalayan Pink Salt,35,6.68,233.8,Credit Card,462 Crownhardt Center,Poland
+28,Wendy Fanton,7/15/2021,Puzzle Mat,82,457.88,37546.16,PayPal,746 Westport Center,Sweden
+29,Bob O'Scollain,2/10/2021,Beef Sirloin Steak,84,838.66,70447.44,PayPal,58265 Clove Center,China
+30,Steve Deboo,8/15/2021,Nutty Quinoa Salad,70,121.67,8516.9,PayPal,048 Hudson Plaza,Brazil
+31,Debera Laydel,4/5/2021,Customizable Name Plate,62,663.35,41127.7,Cash,3185 Welch Way,Peru
+32,Sandra Kinsella,8/16/2021,Dual Function Electric Skillet,16,506.02,8096.32,Credit Card,28669 Trailsway Crossing,Albania
+33,Bee Errowe,2/2/2021,LED Christmas Tree Lights,89,770.92,68611.88,Cash,33514 Rutledge Crossing,China
+34,Tabby Oager,9/2/2021,Camping Chair,73,220.57,16101.61,PayPal,92698 Almo Terrace,Portugal
+35,Dario Morrilly,12/22/2021,Tattoo Kit,,409.31,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,PayPal,871 Corry Way,Brazil
+36,Case Basile,11/21/2021,Automatic Pet Feeder,30,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Cash,4848 Bartelt Point,China
+37,Elka Colombier,2/10/2021,Plant Pot Drip Trays,9,187.3,1685.7,PayPal,9724 Hovde Road,Burkina Faso
+38,Hildy Gyurko,10/6/2021,Avocado Oil,32,535.21,17126.72,PayPal,3 Dixon Drive,China
+39,Bernard Barbosa,12/22/2021,Personalized Keychain,56,774.9,43394.4,Cash,79278 Briar Crest Alley,China
+40,Kendell Domonkos,4/8/2021,Almond Flour Biscuits,99,209.47,20737.53,Credit Card,13 Michigan Street,Canada
+41,Alika Prudham,6/27/2021,Buttermilk Pancakes,4,312.53,1250.12,Cash,814 Truax Junction,Poland
+42,Benjamen Wavell,12/17/2021,Portable Projector,7,491.89,3443.23,Cash,696 Stoughton Street,Nicaragua
+43,Jaimie Critoph,3/27/2021,Basic V-Neck T-Shirt,76,631.99,48031.24,Credit Card,60475 Manley Hill,Portugal
+44,Luis Sancto,7/14/2021,Coconut Oil,37,766.18,28348.66,Credit Card,06769 Dapin Pass,Indonesia
+45,Karly Broome,8/26/2021,Paprika,32,409.61,13107.52,Credit Card,38 Bobwhite Road,United States
+46,Cash Tie,6/9/2021,Gluten-Free Bread,36,772.09,27795.24,Cash,1 Farmco Place,Indonesia
+47,Cristy Bramham,2/12/2021,Over-the-Door Hooks,,392.96,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Credit Card,9 Monument Center,Philippines
+48,Salvador Edmonson,2/28/2021,Solar Power Bank,82,572.35,46932.7,Cash,9 Eagan Trail,United States
+49,Avie Rigolle,1/22/2021,Breezy Off-The-Shoulder Top,17,191.8,3260.6,Cash,7 Eastwood Alley,Vietnam
+50,Adelice Adamkiewicz,1/28/2021,Oatmeal Raisin Cookies,,266.94,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Credit Card,01151 Vera Circle,Russia
+51,Cayla Carsberg,5/3/2021,Sesame Noodles,,597.99,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,PayPal,63 Grim Way,Pitcairn
+52,Grantley Fitzsimmons,7/18/2021,Kids' Gardening Tools Set,36,284.12,10228.32,Credit Card,8663 Westend Plaza,China
+53,Merwin Sams,4/11/2021,,41,436.44,17894.04,Cash,73 Scoville Parkway,China
+54,Ailene Ogilby,3/26/2021,Zucchini,23,698.26,16059.98,Credit Card,864 Browning Circle,China
+55,Saw Heaffey,7/21/2021,Dark Chocolate Raisins,,437.34,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Credit Card,818 Village Pass,United States
+56,Riordan Beadnall,2/3/2021,Couscous,93,238.23,22155.39,PayPal,6193 Anzinger Park,China
+57,Ariana Silmon,11/6/2021,Automatic Pet Feeder,76,31.11,2364.36,Credit Card,4749 Harper Park,Russia
+58,Judi Penvarne,7/8/2021,Pet Caress Brush,34,627.5,21335.0,Credit Card,22714 Fulton Crossing,Spain
+59,Gypsy Dutnell,9/7/2021,Artisan Cornbread Mix,13,327.7,4260.1,PayPal,58 Orin Place,Pakistan
+60,Donalt Azam,5/22/2021,Kale Salad Kit,24,132.02,3168.48,PayPal,12535 Nelson Alley,Laos
+61,Cord Lowson,1/24/2021,Portable Solar Phone Charger,89,111.5,9923.5,Credit Card,6958 Kedzie Junction,South Korea
+62,Nappie Quadrio,12/21/2021,Electronic Drum Kit,,619.6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Credit Card,04 Fieldstone Terrace,Brazil
+63,Hayes Broz,12/13/2021,Sea Salt Caramel Brownie,18,218.87,3939.66,Credit Card,6 Laurel Parkway,China
+64,Marjorie Beurich,10/1/2021,Faux Fur Throw Blanket,91,101.04,9194.64,PayPal,6778 Donald Plaza,China
+65,Lombard Sarrell,7/8/2021,Coffee Making Kit,18,776.84,13983.12,PayPal,17 Dunning Place,Egypt
+66,Lauri Valencia,9/9/2021,Frozen Acai Purée,62,91.47,5671.14,PayPal,9679 Tomscot Circle,Burundi
+67,Domeniga Bothwell,7/21/2021,Sports Water Bottle with Infuser,87,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1,Cash,09 Canary Court,Greece
+68,Bing Seeviour,9/1/2021,Fishing Tackle Box,80,723.11,57848.8,PayPal,74510 Manitowish Street,Nigeria
+69,Ariana Skill,2/28/2021,Coconut Yogurt,45,164.58,7406.1,Cash,65892 Merchant Street,United States
+70,Allyson Luipold,3/30/2021,,87,109.29,9508.23,PayPal,9 Acker Road,Russia
+71,Ellissa Endon,11/8/2021,Brownie Bites,81,294.78,23877.18,Cash,29 Emmet Hill,Bolivia
+72,Merrili Elletson,8/16/2021,Pita Bread,32,970.88,31068.16,Cash,353 Maywood Point,Brazil
+73,Hollie Kyston,12/22/2021,Lentil Soup,33,584.07,19274.31,Credit Card,89 New Castle Drive,France
+74,Livvie Folley,1/4/2021,Solar Garden Lights,56,551.08,30860.48,PayPal,2 Stoughton Road,Syria
+75,Domenic Slyvester,7/22/2021,Wireless Earbuds Case,13,919.95,11959.35,Cash,2694 Russell Parkway,Hungary
+76,Farly Pirson,6/29/2021,Cotton Sweatpants,11,413.27,4545.97,Cash,81 Waxwing Trail,Uzbekistan
+77,Rosina Wormald,8/10/2021,Outdoor Fire Pit,54,215.43,11633.22,Credit Card,2 Rieder Crossing,Indonesia
+78,Odette Weiser,9/28/2021,Chipotle Seasoning Blend,74,686.59,50807.66,PayPal,11471 Esker Plaza,Greece
+79,Colette Cheer,1/15/2021,Mini Cordless Vacuum Cleaner,17,203.7,3462.9,Credit Card,2 Rusk Park,United States
+80,Janie Staresmeare,4/9/2021,Leather Wallet,34,864.43,29390.62,Cash,0404 Caliangt Street,Indonesia
+81,Klemens Withinshaw,2/24/2021,Spicy Salsa Verde,30,395.22,11856.6,Cash,1 Oxford Road,Indonesia
+82,Emylee Cattel,1/29/2021,Chiffon Blouse,29,940.32,27269.28,Credit Card,591 Sachs Way,Sweden
+83,Lorry Fullerd,3/14/2021,Chipotle Black Bean Salad,89,434.85,38701.65,Cash,5 Summer Ridge Lane,Cuba
+84,Georgie Yallowley,9/22/2021,Ethical Wool Scarf,86,313.39,26951.54,Credit Card,55672 Corben Lane,Russia
+85,Wenda Baline,9/18/2021,Rice Noodles,7,157.04,1099.28,Cash,37 Oriole Plaza,Indonesia
+86,Eddi Farlham,12/13/2021,Portable Speaker Stand,66,908.66,59971.56,Cash,749 Mosinee Center,China
+87,Dilly Jaques,8/12/2021,Car Sunshade,46,177.07,8145.22,Cash,3 Beilfuss Center,Ukraine
+88,Laurene Wines,8/20/2021,Dark Chocolate Almond Butter Cups,50,653.52,32676.0,Cash,1 Surrey Junction,Indonesia
+89,Claire Gladtbach,9/28/2021,Honey Roasted Peanuts,11,55.67,612.37,Cash,9 Vera Avenue,Portugal
+90,Rey Toping,8/26/2021,Linen Trousers,1,889.9,889.9,Cash,93380 Calypso Drive,Ireland
+91,Liva Zuann,4/15/2021,Smoky BBQ Jackfruit,61,50.56,3084.16,Credit Card,791 Claremont Place,Indonesia
+92,Heall Gosnold,1/8/2021,Camping Chair,58,814.59,47246.22,Cash,62 Cardinal Court,China
+93,Foster Altofts,3/24/2021,Wrist Support Brace,51,506.25,25818.75,Credit Card,1 Northwestern Point,France
+94,Fredia McDermott,6/19/2021,Cotton Quilted Throw Blanket,74,330.63,24466.62,Credit Card,16 Lakeland Avenue,Russia
+95,Reggy Massinger,10/16/2021,Travel Laundry Bag,5,568.5,2842.5,Credit Card,005 Cody Parkway,China
+96,Daffi Sandcraft,7/5/2021,,37,308.62,11418.94,Credit Card,33 Union Parkway,United States
+97,Dannie Macrow,5/12/2021,Ginger Snaps,26,742.5,19305.0,PayPal,48126 Dapin Road,Indonesia
+98,Maxim Antonellini,9/19/2021,Chickpea Flour,67,433.46,29041.82,Credit Card,66503 Springview Center,Afghanistan
+99,Thayne Showte,3/1/2021,Kettle Chip Variety Pack,62,968.77,60063.74,PayPal,8757 Londonderry Hill,Ireland
+100,Demott Norman,12/27/2021,Pumpkin Spice Cookies,35,455.96,15958.6,PayPal,055 La Follette Junction,Thailand
